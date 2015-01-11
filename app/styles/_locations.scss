@@ -15,6 +15,31 @@
 	background-position: -3000px 0;
 }
 
+#paris_cover {
+	background-image: url("../images/ParisCover.jpg");
+	background-position: -250px;
+	background-size: 2400px;
+}
+
+#london_cover {
+	background-image: url("../images/LondonCover.jpg");
+	background-position: -4000px -380px;
+	background-size: 6000px;
+}
+
+.lists_wrapper {
+	max-width: 700px;
+	margin: 0 auto;
+
+	.itinerary {
+		float: left;
+	}
+
+	.features {
+		float: right;
+	}
+}
+
 iframe {
 	margin-top: 5%;
 }
