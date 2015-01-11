@@ -10,8 +10,8 @@ body {
 main {
   max-width: 940px;
   margin: 0 auto;
-  padding: 0 5%;
   overflow: auto;
+  text-align: center;
 }
 
 a {
@@ -23,7 +23,6 @@ HEADING
 ***********************************/
 
 header {
-  float: left;
   width: 100%;
 }
 
@@ -62,9 +61,8 @@ FOOTER
 ***********************************/
 
 footer {
-  font-size: 0.75em;
   text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: darken(#ccc, 20%);
+  padding: 50px;
+  color: #fff;
+  background-color: #434343;
 }
