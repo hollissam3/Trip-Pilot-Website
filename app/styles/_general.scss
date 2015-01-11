@@ -3,7 +3,7 @@ GENERAL
 ***********************************/
 
 body {
-  font-family: sans-serif;
+  font-family: "proxima-nova", sans-serif;
   background-color: #edefed;
 }
 
@@ -34,6 +34,11 @@ header {
   height: 300px;
   display: block;
   margin: -50px auto;
+  padding: 0;
+
+  @media (screen and max-width: 720px) {
+    height: 250px;
+  }
 }
 
 /**********************************
@@ -43,7 +48,7 @@ NAVIGATION
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0;
+  font-weight: 600;
 
   ul {
     list-style: none;

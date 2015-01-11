@@ -6,14 +6,29 @@
 	margin-top: 0;
 	overflow: auto;
 
+	@media (screen and max-width: 720px) {
+		min-height: 500px;
+	}
+
 	h1 {
 		padding-top: 250px;
+		font-size: 3em;
+
+		@media (screen and max-width: 720px) {
+			padding-top: 100px;
+		}
 	}
 
 	button {
-		background: transparent;
+		background: rgba(0,0,0,0.2);
 		border: 1px solid #fff;
 		padding: 25px;
+		font-weight: 600;
+
+		&:hover {
+			color: darken(#fff, 10%);
+			background: rgba(0,0,0,0.3);
+		}
 	}
 
 	a {
@@ -25,13 +40,28 @@
 	background-image: url("../images/SanFran.jpg");
 	background-size: 4000px;
 	background-position: -1500px -1500px;
+
+	@media (screen and max-width: 720px) {
+		background-size: 2650px;
+		background-position: -1420px;
+	}
 }
 
 #paris_main {
 	background-image: url("../images/Paris.jpg");
 	background-position: -3000px -420px;
+
+	@media (screen and max-width: 720px) {
+		background-size: 1500px;
+		background-position: -850px;
+	}
 }
 
 #london_main {
 	background-image: url("../images/London.jpg");
+
+	@media (screen and max-width: 720px) {
+		background-size: 1450px;
+		background-position: -250px;
+	}
 }
