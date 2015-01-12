@@ -2,7 +2,7 @@
 COLORS
 ***********************************/
 
-$blue: #edefed;
+$gray: #edefed;
 
 /* site body */
 body {
@@ -10,15 +10,17 @@ body {
 }
 
 header {
-	background: $blue;
+	background: $gray;
 }
 
 /* nav link */
-nav a, nav a:visited {
-  color: darken($blue, 20%);
+a, a:visited {
+  color: darken($gray, 20%);
+  transition: color 0.5s;
 }
 
 /* selected nav link */
-nav a.selected, nav a:hover {
-  color: darken($blue, 35%);
+a.selected, a:hover {
+  color: darken($gray, 35%);
+  transition: color 0.5s;
 }

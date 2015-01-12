@@ -25,10 +25,12 @@
 		padding: 25px;
 		font-weight: 600;
 		color: #fff;
+		transition: background 0.5s, color 0.5s;
 
 		&:hover {
 			color: darken(#fff, 10%);
 			background: rgba(0,0,0,0.3);
+			transition: background 0.5s, color 0.5s;
 		}
 	}
 }
