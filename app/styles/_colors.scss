@@ -2,34 +2,23 @@
 COLORS
 ***********************************/
 
-$blue: #21aedc;
+$blue: #edefed;
 
 /* site body */
 body {
-  background-color: #fff;
-  /*color: #999;*/
+  background-color: #edefed;
 }
 
 header {
 	background: $blue;
 }
 
-/* nav background on mobile */
-nav {
-  background: darken($blue, 10%);
-}
-
-/* links */
-a {
-  color: lighten($blue, 10%);
-}
-
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: darken($blue, 20%);
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: darken($blue, 25%);
+  color: darken($blue, 35%);
 }
