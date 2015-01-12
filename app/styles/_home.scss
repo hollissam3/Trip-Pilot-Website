@@ -42,8 +42,9 @@
 	background-position: -1550px -2000px;
 
 	@media (screen and max-width: 720px) {
-		background-size: 2650px;
-		background-position: -1420px;
+		background-image: url("../images/SanFran720.jpg");
+		background-size: 1200px;
+		background-position: -400px -500px;
 	}
 }
 
@@ -52,8 +53,9 @@
 	background-position: -3000px -420px;
 
 	@media (screen and max-width: 720px) {
+		background-image: url("../images/Paris720.jpg");
 		background-size: 1500px;
-		background-position: -850px;
+		background-position: -760px;
 	}
 }
 
@@ -61,7 +63,38 @@
 	background-image: url("../images/London.jpg");
 
 	@media (screen and max-width: 720px) {
-		background-size: 1450px;
-		background-position: -250px;
+		background-image: url("../images/London720.jpg");
+		background-size: 1345px;
+		background-position: -220px;
+	}
+}
+
+.webp {
+	#sanfran_main {
+		background-image: url("../images/SanFran.webp");
+
+		@media (screen and max-width: 720px) {
+			background-image: url("../images/SanFran720.webp");
+		}
+	}
+
+	#paris_main {
+		background-image: url("../images/Paris.webp");
+
+		@media (screen and max-width: 720px) {
+			background-image: url("../images/Paris720.webp");
+			background-size: 900px;
+			background-position: -100px;
+		}
+	}
+
+	#london_main {
+		background-image: url("../images/London.webp");
+
+		@media (screen and max-width: 720px) {
+			background-image: url("../images/London720.webp");
+			background-size: 1150px;
+			background-position: -440px;
+		}
 	}
 }
