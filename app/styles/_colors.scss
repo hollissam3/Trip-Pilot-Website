@@ -15,12 +15,12 @@ header {
 
 /* nav link */
 a, a:visited {
-  color: darken($gray, 20%);
+  color: darken($gray, 40%);
   transition: color 0.5s;
 }
 
 /* selected nav link */
 a.selected, a:hover {
-  color: darken($gray, 35%);
+  color: darken($gray, 65%);
   transition: color 0.5s;
 }
